@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Playfair:wght@300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Playfair', serif; */
+
+:root {
+  --color-white: #fafafa;
+  --color-green: #254d4d;
+  --color-grey-bg: #2e2f32;
+  --color-dark: #2f2e2e;
+  --color-green-bg: rgba(37, 77, 77, 0.2);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.text-h2 {
+
+}
+
+.text-p {
+
+}
