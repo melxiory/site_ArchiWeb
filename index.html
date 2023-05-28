@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>ArchiWeb</title>
   </head>
   <body>
@@ -17,27 +21,31 @@
         <div class="navbar__flex">
           <p class="navbar__logo logo">ArchiWeb</p>
           <ul class="navbar__list">
-            <li class="navbar__list-item"><span><a href="#">Home</a></span></li>
-            <li class="navbar__list-item"><a href="#">Projects</a></li>
-            <li class="navbar__list-item"><a href="#">About</a></li>
-            <li class="navbar__list-item"><a href="#">Contact</a></li>
-            <li class="navbar__list-item"><a href="#"><i class="material-icons">search</i></a></li>
+            <li class="navbar__list-item">
+              <span><a href="#home">Home</a></span>
+            </li>
+            <li class="navbar__list-item"><a href="#projects">Projects</a></li>
+            <li class="navbar__list-item"><a href="#about">About</a></li>
+            <li class="navbar__list-item"><a href="#footer">Contact</a></li>
+            <li class="navbar__list-item">
+              <a href="#"><i class="material-icons">search</i></a>
+            </li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- Шапка -->
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <div class="header__content">
-          <h2 class="header__h2 text-h2">Best Solution For 
-            Your Home</h2>
-          <p class="header__p">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit ut 
-            aliquam, purus sit amet </p>
+          <h2 class="header__h2 text-h2">Best Solution For Your Home</h2>
+          <p class="header__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet
+          </p>
         </div>
-        <img class="header__image" src="img/header_img.png" alt="HeaderImg">
+        <img class="header__image" src="img/header_img.png" alt="HeaderImg" />
       </div>
     </header>
 
@@ -48,22 +56,43 @@
           <h2 class="our-services__h2 text-h2">Our Services</h2>
           <div class="our-services__cards">
             <div class="our-services__card">
-              <img src="img/our_services_1.png" alt="OurServicesImage" class="our-services__img">
+              <a href="#">
+                <img
+                  src="img/our_services_1.png"
+                  alt="OurServicesImage"
+                  class="our-services__img"
+                />
+              </a>
               <h3 class="our-services__h3 text-h3">Planning</h3>
-              <p class="our-services__p">Our Services Line one
-                Servive line two</p>
+              <p class="our-services__p">
+                Our Services Line one Servive line two
+              </p>
             </div>
             <div class="our-services__card">
-              <img src="img/our_services_2.png" alt="OurServicesImage" class="our-services__img">
+              <a href="#">
+                <img
+                  src="img/our_services_2.png"
+                  alt="OurServicesImage"
+                  class="our-services__img"
+                />
+              </a>
               <h3 class="our-services__h3 text-h3">Interior</h3>
-              <p class="our-services__p">Our Services Line one
-                Servive line two</p>
+              <p class="our-services__p">
+                Our Services Line one Servive line two
+              </p>
             </div>
             <div class="our-services__card">
-              <img src="img/our_services_3.png" alt="OurServicesImage" class="our-services__img">
+              <a href="#">
+                <img
+                  src="img/our_services_3.png"
+                  alt="OurServicesImage"
+                  class="our-services__img"
+                />
+              </a>
               <h3 class="our-services__h3 text-h3">Exterior</h3>
-              <p class="our-services__p">Our Services Line one
-                Servive line two</p>
+              <p class="our-services__p">
+                Our Services Line one Servive line two
+              </p>
             </div>
           </div>
         </div>
@@ -71,17 +100,21 @@
     </section>
 
     <!-- О нас -->
-    <section class="about-us">
+    <section class="about-us" id="about">
       <div class="container-content">
         <div class="about-us__flex">
-          <img src="img/about_us_img.png" alt="AboutUsImage" class="about-us__image">
+          <img
+            src="img/about_us_img.png"
+            alt="AboutUsImage"
+            class="about-us__image"
+          />
           <div class="about-us__text">
             <h2 class="about-us__h2 text-h2">About Us</h2>
-            <p class="about-us__p">Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit ut 
-              aliquam, purus sit amet luctus 
-              venenatis, lectus magna fringilla 
-              urna, porttitor</p>
+            <p class="about-us__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
             <p class="about-us__link"><a href="#">Read more</a></p>
           </div>
         </div>
@@ -89,39 +122,69 @@
     </section>
 
     <!-- Наши проекты -->
-    <section class="our-projects">
+    <section class="our-projects" id="projects">
       <div class="container-content">
         <h2 class="our-projects__h2 text-h2">Our Projects</h2>
         <div class="our-projects__grid">
           <div class="our-projects__card">
-            <img src="img/our-projects_img_1.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_1.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
           <div class="our-projects__card">
-            <img src="img/our-projects_img_2.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_2.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
           <div class="our-projects__card">
-            <img src="img/our-projects_img_3.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_3.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
           <div class="our-projects__card">
-            <img src="img/our-projects_img_4.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_4.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
           <div class="our-projects__card">
-            <img src="img/our-projects_img_5.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_5.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
           <div class="our-projects__card">
-            <img src="img/our-projects_img_6.png" alt="OurProjectsImage" class="our-projects__image">
-            <p class="our-projects__p">Our Services Line one
-              Servive line two</p>
+            <img
+              src="img/our-projects_img_6.png"
+              alt="OurProjectsImage"
+              class="our-projects__image"
+            />
+            <p class="our-projects__p">
+              Our Services Line one Servive line two
+            </p>
           </div>
         </div>
       </div>
@@ -129,12 +192,79 @@
 
     <!-- Рекомендации -->
     <section class="testimonial">
-
+      <div class="container-content">
+        <h2 class="testimonial__h2 text-h2">Testimonial</h2>
+        <div class="testimonial__cards">
+          <div class="testimonial__card">
+            <img
+              src="img/testimonial_img_1.png"
+              alt="TestimonialImage"
+              class="testimonial__img"
+            />
+            <div class="testimonial__card-text">
+              <h3 class="testimonial__h3 text-h3">
+                James Passaquindici Arcand
+              </h3>
+              <p class="testimonial__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__card">
+            <img
+              src="img/testimonial_img_2.png"
+              alt="TestimonialImage"
+              class="testimonial__img"
+            />
+            <div class="testimonial__card-text">
+              <h3 class="testimonial__h3 text-h3">Abram Schleifer</h3>
+              <p class="testimonial__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Подвал -->
-    <footer class="footer">
-
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="container-content">
+          <div class="footer__grid">
+            <div class="footer__descript">
+              <p class="footer__logo logo">ArchiWeb</p>
+              <p class="footer__text">
+                Archiweb is an architectural consultant based in Berlin, Germany.
+                We provide solutions for your architecture and residential design
+              </p>
+              <div class="footer__social">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer__articles">
+              <p class="footer__articles-title">Articles</p>
+              <p class="footer__article">
+                <a href="#">7 Tips for Kids Friendly Interior Design</a>
+              </p>
+              <p class="footer__article">
+                <a href="#">Smart Tips for Changing a Room</a>
+              </p>
+              <p class="footer__article"><a href="#">Eco-friendly design</a></p>
+            </div>
+            <div class="footer__location">
+              <p class="footer__location-title">Location</p>
+              <div class="footer__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4231.286533766839!2d37.6402722256071!3d55.820220463999334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5367627ee87d9%3A0x7ba377dcf3b4cc80!2z0JLQlNCd0KU!5e0!3m2!1sru!2sru!4v1685275282241!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="js/materialize.min.js"></script>
